@@ -1,0 +1,14 @@
+1. Why did you choose that language ?
+   I chose C++ language because it is a object oriented language with great Standard Template Library(STL) which was really helpful in implementation of redis. Another reason is I was comfortable using C++ as i use it quite often in competitive coding that's why i am familiar with the language quite well.
+
+2. What are the further improvements that can be made to make it efficient?
+   The code can be further improved by designing the system and using Object Oriented Approach in solving the problem. Complexity of ZRANK and ZRANGE queries can be improved by using Balanced Binary Search Trees. Support of Multithreading will also make the code more efficient.
+
+3. What data structures have you used and why ?
+   The data structes i have used are-
+   HashMap - I have used hashmaps to store the key value pairs, key time pairs and key ordered set, so that the complexity of both getting and setting the values can be reduced to O(1).
+   Set - I have used ordered set to maintain the members according to their scores.
+   Vector - I have used vector to store the members with their scores while taking input for ZADD command.
+
+4. Does your implementation support multi threaded operations? If No why can’t it be? If yes then how ?
+   No, It does not have support for multi threaded operations. Multi threaded operations will cause a problem when two threads try to access shared resource and try to write/update a value. But yes as a further modification the app can be made to support multi threaded operations.
