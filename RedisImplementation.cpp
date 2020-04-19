@@ -104,7 +104,7 @@ void ZRANGE(unordered_map<string, set<pair<ll, string> > > &keySortedSet, string
 		start = max(0LL, (ll)keySortedSet[key].size() + start);
 	//Change value of end if it is negative
 	if(end < 0)
-		end = min(keySortedSet[key].size() - 1, keySortedSet[key].size() + end);
+		end = min((ll)keySortedSet[key].size() - 1, (ll)keySortedSet[key].size() + end);
 	int index = 0;
 	
 	//Loop through all the members of key
