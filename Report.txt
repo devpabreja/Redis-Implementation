@@ -11,4 +11,4 @@
    Vector - I have used vector to store the members with their scores while taking input for ZADD command.
 
 4. Does your implementation support multi threaded operations? If No why can’t it be? If yes then how ?
-   No, It does not have support for multi threaded operations. Multi threaded operations will cause a problem when two threads try to access shared resource and try to write/update a value. But yes as a further modification the app can be made to support multi threaded operations.
+   No, It does not have support for multi threaded operations. Multi threaded operations will cause a problem when two threads try to access shared resource and try to write/update a value. But yes as a further modification on the code can be made to support multi threaded operations.
