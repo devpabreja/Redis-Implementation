@@ -13,8 +13,8 @@ A working implementation of redis with some basic functionalities like
 
 ### Executable Commands
 
-Everthing should be entered without quotes-
-
+Everthing should be entered without quotes.
+```
 1. SET <key> <value>
 2. GET <key>
 3. EXPIRE <key> <time-in-sec>
@@ -22,4 +22,5 @@ Everthing should be entered without quotes-
 5. ZRANK <key> <member>
 6. ZRANGE <key> <start> <end>
 7. QUIT
+```
 
